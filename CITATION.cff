@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use FA-OPD, please cite the ICML 2026 paper."
+title: "Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher"
+type: conference-paper
+authors:
+  - family-names: Wan
+    given-names: Zhenglin
+  - family-names: Wu
+    given-names: Jingxuan
+  - family-names: Yu
+    given-names: Xingrui
+  - family-names: Zhang
+    given-names: Chubin
+  - family-names: Lei
+    given-names: Mingcong
+  - family-names: An
+    given-names: Bo
+  - family-names: Tsang
+    given-names: Ivor W.
+  - family-names: You
+    given-names: Yang
+year: 2026
+conference:
+  name: "International Conference on Machine Learning"
+repository-code: "https://github.com/vanzll/FA-OPD"
+url: "https://arxiv.org/abs/2605.27095"
+identifiers:
+  - type: other
+    value: "arXiv:2605.27095"
+    description: "arXiv identifier"

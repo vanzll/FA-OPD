@@ -1,0 +1,34 @@
+project: 'FA-OPD'
+program: faopd/main.py
+method: grid
+name: Ant-FM-BC-0.00
+command:
+  - ${env}
+  - python3
+  - ${program}
+  - ${args}
+  - --use-proper-time-limits
+  
+parameters:
+  prefix:
+    value: fm-bc
+  alg:
+    value: fm-bc
+  env-name:
+    value: AntGoal-v0
+  normalize-env:
+    value: False
+  traj-load-path:
+    value: ./expert_datasets/ant_50.pt
+  bc-num-epochs:
+    value: 1000
+  eval-num-processes:
+    value: 20
+  ant-noise:
+    value: 0.0
+  traj-frac:
+    value: 0.5
+  traj-val-ratio:
+    value: 0.2
+  seed:
+    values: [1,2,3,4]

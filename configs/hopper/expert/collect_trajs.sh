@@ -1,0 +1,28 @@
+python faopd/main.py \
+    --load-file /expert/path \
+    --alg=ppo \
+    --clip-actions=True \
+    --cuda=True \
+    --entropy-coef=0.001 \
+    --env-name=hopper-medium-v0 \
+    --eval-interval=20000 \
+    --eval-num-processes=1 \
+    --log-interval=1 \
+    --lr=0.0001 \
+    --max-grad-norm=0.5 \
+    --normalize-env=True \
+    --num-env-steps=25000000 \
+    --num-epochs=10 \
+    --num-eval=25 \
+    --num-mini-batch=32 \
+    --num-render=1000 \
+    --num-steps=256 \
+    --ppo-hidden-dim=256 \
+    --prefix=ppo \
+    --save-interval=100000 \
+    --seed=1 \
+    --vid-fps=100 \
+    --eval-only \
+    --eval-save \
+    --num-processes 1\
+    --no-wb
